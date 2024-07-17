@@ -1,19 +1,37 @@
- #define FIRMWARE_WEBCAM 
+#define FIRMWARE_WEBCAM 
+#undef CODE_IMAGE_STR 
+#define CODE_IMAGE_STR "webcam" 
   
- #undef CODE_IMAGE_STR 
- #define CODE_IMAGE_STR "webcam" 
+#define USE_WEBCAM 
+#define ENABLE_RTSPSERVER 
+#define USE_FACE_DETECT
+#define USE_SPI 
+#define USE_SDCARD 
   
- #define USE_WEBCAM 
- #define ENABLE_RTSPSERVER 
- #define USE_SPI 
- #define USE_SDCARD 
-  
- #define USE_I2C 
- #define USE_HOME_ASSISTANT 
- #define USE_TASMOTA_DISCOVERY                    // Enable Tasmota Discovery support (+2k code) 
- #define USE_DS18x20 
- #define USE_BMP 
- #define USE_DHT 
- #define USE_BH1750 
- #define USE_WS2812 
- #define USE_BERRY                                 // Disable Berry scripting language 
+#define USE_I2C 
+#define USE_DS18x20 
+#define USE_BMP 
+#define USE_DHT 
+#define USE_BH1750 
+#define USE_WS2812 
+#define USE_SCD40
+#define USE_TSL2561
+#define USE_AHT2x
+
+
+#define USE_DISPLAY
+#define USE_DISPLAY_LCD	
+#define SHOW_SPLASH
+
+#define USE_BERRY   
+
+
+
+#define USE_HOME_ASSISTANT 
+#define USE_TASMOTA_DISCOVERY                    // Enable Tasmota Discovery support (+2k code) 
+#define USE_DISCOVERY
+#define WEBSERVER_ADVERTISE	
+#define MQTT_HOST_DISCOVERY
+#define USE_SUNRISE
+
+#define MY_LANGUAGE ru_RU	
